@@ -1,0 +1,6 @@
+book_filename: "MyProfessionalJournal"
+delete_merged_file: true
+language:
+  ui:
+    chapter_name: ""
+    section_name: ""

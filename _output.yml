@@ -1,0 +1,23 @@
+bookdown::gitbook:
+  number_sections: no
+  highlight: kate
+  config:
+    toc_depth: 3
+    toc:
+      collapse: section
+      scroll_highlight: yes
+      before: null
+      after: null
+    sharing: null
+    fontsettings:
+      theme: white
+      family: sans
+      size: 1
+    download: ["pdf"]
+bookdown::pdf_book:
+    keep_tex: true
+    toc: true
+    toc_depth: 4
+    number_sections: false
+    includes:
+      in_header: preamble.tex

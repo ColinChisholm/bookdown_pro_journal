@@ -1,0 +1,56 @@
+--- 
+title: "Activity Log"
+author: "Colin Chisholm"
+date: 'Last updated: `r Sys.Date()`'
+output: pdf_document
+bibliography:
+- packages.bib
+biblio-style: apalike
+link-citations: yes
+always_allow_html: yes
+highlight: kate
+description: Activities, professional diary, and time tracking.
+documentclass: book
+site: bookdown::bookdown_site
+---
+
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, cache=FALSE, warning = FALSE, message = FALSE, results = 'show' )
+```
+
+
+# Intro
+
+## Notes {-}
+
+- review `preamble.tex` -  to change the info repeated at the top of each pages
+- `./ref` folder holds copies of new months and days.  Save new months and copy and paste in new days.
+
+## About {-}
+
+This is my professional diary tracking work completed with the Aleza Lake Research Forest.  This has been authored using R, and Bookdown an extension of the Rmarkdown system.  Additionally, this script allows me to track various projects including time and cost tracking.  
+
+## Projects List {-}
+
+Current priority items 
+
+1. ~~MSc~~
+3. Operations 
+4. Research 
+    - PEM 
+    - MSc papers 
+3. Harvest planning
+4. TSR and total chance plan
+3. EFI
+5. Summer data 
+6. Partial Cutting Course
+
+## Project Tracking Mindmaps {-}
+
+- **Project Management** is a global overview of all projects on-going (including multi-year projects).    
+`workspace/mindmaps/ALRF Project Management CC.mm`
+- **Research Projects** is alisting of ALRF associated research projects.     
+`workspace/mindmaps/Research Projects.mm`
+- Additional mindmaps are stored by year in    
+`workspace/mindmaps/[year]`
