@@ -104,7 +104,7 @@ Raw data has been exported to:
 ```{r, echo=FALSE, results='show'}
 dataexport <- "./dataexport"
 write_csv(myTime, paste0(dataexport, "/myTime/",filePrefix, "_Mytime.csv"))
-write_csv(myTime, paste0(dataexport, "/Consulting/", filePrefix, "_Consulting.csv"))
+write_csv(Consulting, paste0(dataexport, "/Consulting/", filePrefix, "_Consulting.csv"))
 
 files <- list.files(path = dataexport, full.names = TRUE, recursive = TRUE )
 files

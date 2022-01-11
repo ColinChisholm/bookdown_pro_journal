@@ -48,12 +48,12 @@ Note that `r CarryOver` hours of banked time have been carried over from last mo
 
 ------------------
 
-## May 3 -- Monday
+## Jan. 3 -- Monday
   
 ```{r}
 ##NEW DAY ----------------------------------------------------
 # items for time tracking
-Date <- "2021-04-03" ## Type in this format!
+Date <- "2021-01-03" ## Type in this format!
 HoursWorked  <-  8.0
 BankedTime   <-  0.0
 Personal_Kms <-  0.0
@@ -101,7 +101,7 @@ Raw data has been exported to:
 ```{r, echo=FALSE, results='show'}
 dataexport <- "./dataexport"
 write_csv(myTime, paste0(dataexport, "/myTime/",filePrefix, "_Mytime.csv"))
-write_csv(myTime, paste0(dataexport, "/Consulting/", filePrefix, "_Consulting.csv"))
+write_csv(Consulting, paste0(dataexport, "/Consulting/", filePrefix, "_Consulting.csv"))
 
 files <- list.files(path = dataexport, full.names = TRUE, recursive = TRUE )
 files
